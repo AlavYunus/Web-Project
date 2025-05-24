@@ -1,0 +1,15 @@
+article {
+    background-color: white;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: repeat-y;
+ }
+#footer{
+    width: 100%;
+    margin:0px;
+    margin-top: 5px;
+    border: 5px solid rgb(141, 37, 37);
+    background-color: rgb(141, 37, 37);
+    color: white ;
+
+}

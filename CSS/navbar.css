@@ -1,0 +1,23 @@
+header {
+    background-color:white;
+    border: 5px solid rgb(141, 37, 37);
+    height: auto;
+    margin: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    background-attachment: scroll;
+}
+nav a{
+    list-style-type:none ;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 25px;
+    box-shadow: 3px  2px 14px rgb(141, 36, 36);
+    min-width: 40%;
+    width:auto ;
+    margin: 10px;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    
+    
+}

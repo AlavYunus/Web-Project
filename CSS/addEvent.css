@@ -1,0 +1,20 @@
+ input {
+            background: none !important;
+            border-bottom: 5px solid rgb(92, 92, 92) !important;
+            box-shadow: 3px 5px gray;
+        } 
+        textarea {
+            background: none !important;
+            border-bottom: 5px solid rgb(92, 92, 92) !important;
+            box-shadow: 3px 5px gray;
+        }
+        select 
+        {
+            background: none !important;
+            border-bottom: 5px solid rgb(92, 92, 92) !important;
+            box-shadow: 3px 5px gray;
+        }
+        #container {
+            min-height: 75% !important;
+            height: auto;
+        }

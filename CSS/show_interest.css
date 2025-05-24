@@ -1,0 +1,34 @@
+.carousel {
+    margin: 2rem auto;
+    width: 90%;
+  }
+
+  .carousel-inner {
+    height: 250px;
+  }
+
+  .carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+  }
+
+  .carousel-caption {
+    position: static;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .carousel-caption h5 {
+    margin-bottom: 10px;
+    color: #0d6efd;
+  }
+
+  .carousel-caption p {
+    color: #6c757d;
+  }
