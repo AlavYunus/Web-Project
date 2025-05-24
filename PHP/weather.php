@@ -30,9 +30,8 @@
     }  
 
     async function fetchWeatherByCoords(coords) {  
-        // const apiKey = 'e91cb72da4b6ed17a3e3cc59ed392fb2';
-        // const url = `https://api.openweathermap.org/data/2.5/weather?lat=${coords.latitude}&lon=${coords.longitude}&units=metric&lang=en&appid=${apiKey}`;  
-        const url='https://api.openweathermap.org/data/2.5/weather?appid=c6c639f49d126eec2cdcefed38b984b6&lat=36.896893&lon=30.713324&units=metric';
+       
+        const url='the url weather source json file';
 
         try {  
             const response = await fetch(url);  
@@ -63,7 +62,7 @@
 
         weatherDiv.innerHTML = `
             <h4>${data.name}, ${data.sys.country}</h4>  
-            <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="Weather icon" title="${data.weather[0].description}">                      
+            <img src="url" alt="Weather icon" title="${data.weather[0].description}">                      
             <p>Temperature: ${Math.round(data.main.temp)}°C, ${data.weather[0].description}</p>                      
             <p>Perceived Temperature: ${Math.round(data.main.feels_like)}°C</p>  
             <div class="alert ${alertClass}" role="alert">${alertMessage}</div>

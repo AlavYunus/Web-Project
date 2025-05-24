@@ -4,7 +4,7 @@ $connectToDb=CallDB('users');
 $data="SELECT * FROM activity ORDER BY event_date,event_time  ASC" ; //Ordered By time 
 $get_data=mysqli_query($connectToDb,$data);
 //background imqge array
-$imgArray = ["../Content/img1.webp","../Content/img2.webp","../Content/img3.jpg","../Content/img4.jpg","../Content/img5.jpg","../Content/img6.webp","../Content/img7.webp"];
+$imgArray = ["../Content/img1.webp","../Content/img2.webp","../Content/img3.jpeg","../Content/img4.jpeg","../Content/img5.webp","../Content/img6.webp","../Content/img7.webp"];
 
 //Send A Notice When Pasword Is Changed
 if(isset($_SESSION["password_change"])) {
