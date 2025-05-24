@@ -30,9 +30,8 @@
     }  
 
     async function fetchWeatherByCoords(coords) {  
-        // const apiKey = 'e91cb72da4b6ed17a3e3cc59ed392fb2';
-        // const url = `https://api.openweathermap.org/data/2.5/weather?lat=${coords.latitude}&lon=${coords.longitude}&units=metric&lang=en&appid=${apiKey}`;  
-        const url='https://api.openweathermap.org/data/2.5/weather?appid=c6c639f49d126eec2cdcefed38b984b6&lat=36.896893&lon=30.713324&units=metric';
+       
+        const url='the url weather source json file';
 
         try {  
             const response = await fetch(url);  
