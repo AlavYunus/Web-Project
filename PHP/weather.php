@@ -62,7 +62,7 @@
 
         weatherDiv.innerHTML = `
             <h4>${data.name}, ${data.sys.country}</h4>  
-            <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="Weather icon" title="${data.weather[0].description}">                      
+            <img src="url" alt="Weather icon" title="${data.weather[0].description}">                      
             <p>Temperature: ${Math.round(data.main.temp)}°C, ${data.weather[0].description}</p>                      
             <p>Perceived Temperature: ${Math.round(data.main.feels_like)}°C</p>  
             <div class="alert ${alertClass}" role="alert">${alertMessage}</div>
